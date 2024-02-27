@@ -1,0 +1,101 @@
+.contack_wrapper {
+    height: 500px;
+    background-color: #0085FF;
+    color: #fff;
+    overflow: hidden;
+
+    & .contack_con {
+        max-width: 1170px;
+        margin: 50px auto 0;
+        display: flex;
+        justify-content: space-between;
+
+        & .contack_info {
+            width: 420px;
+            height: 420px;
+
+            & h3 {
+                font-size: 32px;
+                font-weight: bold;
+                margin-bottom: 20px;
+            }
+
+            & .contack_desc {
+                margin-bottom: 20px;
+            }
+
+            & .contack_address {
+                margin-bottom: 20px;
+            }
+
+            & p {
+                display: flex;
+                align-items: center;
+
+                & svg {
+                    margin-right:10px;
+                }
+            }
+        }
+
+        & .contack_form {
+            width: 520px;
+            height: 520px;
+
+            & .input_group {
+                display: flex;
+                justify-content: space-between;
+
+                & input[type="text"] {
+                    width: 250px;
+                    height: 40px;
+                    border-radius: 5px;
+                    padding: 15px;
+                    border: none;
+                    outline: none;
+                }
+            }
+
+            & label {
+                display: block;
+                margin: 10px 0;
+                font-size: 14px;
+            }
+
+            & input[type="email"] {
+                width: 100%;
+                height: 40px;
+                border-radius: 5px;
+                padding: 15px;
+                border: none;
+                outline: none;
+            }
+
+            & textarea {
+                width: 100%;
+                height: 100px;
+                border-radius: 5px;
+                padding: 15px;
+                border: none;
+                outline: none;
+            }
+
+            & button[type="submit"] {
+                width: 100px;
+                height: 40px;
+                margin-top: 10px;
+                border-radius: 5px;
+                border: none;
+                outline: none;
+                background-color: #fff;
+                cursor: pointer;
+                transition: 0.3s;
+
+                &:hover {
+                    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+                }
+            }
+        }
+
+    }
+}

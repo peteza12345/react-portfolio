@@ -10,6 +10,8 @@ import Services from './components/Services/Services'
 import Portfolio from './components/Portfolio/Portfolio'
 import Number from './components/Number/Number'
 import Testimonials from './components/Testimonials/Testimonials'
+import Contack from './components/Contack/Contack'
+import Footer from './components/Footer/Footer'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -23,6 +25,8 @@ function App() {
       <Portfolio/>
       <Number/>
       <Testimonials/>
+      <Contack/>
+      <Footer/>
     </>
   )
 }

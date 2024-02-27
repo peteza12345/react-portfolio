@@ -28,3 +28,18 @@
     }
 
 }
+
+@media screen and (max-width: 480px) {
+    .skill_con {
+        height: auto;
+
+        & .skill_list {
+            flex-direction: column;
+            margin: 50px 0;
+
+            & li {
+                margin: 20px 0;
+            }
+        }
+    }
+}

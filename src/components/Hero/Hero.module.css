@@ -59,3 +59,18 @@
         }
     }
 }
+
+@media screen and (max-width: 480px) {
+    .hero_wrapper {
+        height: auto;
+
+        & .hero_con {
+            flex-direction: column;
+            margin: 50px 0;
+
+            & .hero_info, & .hero_img {
+                width: 100%;
+            }
+        }
+    }
+}
