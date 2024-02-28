@@ -99,3 +99,28 @@
 
     }
 }
+
+@media screen and (max-width:480px) {
+    .contack_wrapper {
+        height: auto;
+
+        & .contack_con {
+            flex-direction: column;
+
+            & .contack_info, & .contack_form {
+                width: 100%;
+                padding: 20px;
+            }
+
+            & .contack_form {
+                & input {
+                    width: 100% !important;
+                }
+
+                & .input_group {
+                    flex-direction: column;
+                }
+            }
+        }
+    }
+}
